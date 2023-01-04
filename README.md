@@ -1,4 +1,4 @@
-# Hallwn Changelog
+# Changelog
 
 All notable changes of Hallwn Wp Theme will be documented in this file.
 
