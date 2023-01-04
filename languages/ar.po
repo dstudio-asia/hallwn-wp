@@ -1,0 +1,127 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2022-07-30 11:30+0600\n"
+"PO-Revision-Date: 2022-07-30 11:30+0600\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5);\n"
+"X-Generator: Poedit 3.0.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: esc_html;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: assets\n"
+"X-Poedit-SearchPathExcluded-1: markup\n"
+"X-Poedit-SearchPathExcluded-2: inc\n"
+"X-Poedit-SearchPathExcluded-3: lib\n"
+
+#: 404.php:4
+msgid "404"
+msgstr ""
+
+#: 404.php:5
+msgid "Page not found"
+msgstr "الصفحة غير موجودة"
+
+#: 404.php:7
+msgid ""
+"The page you are looking for doesn’t exist or an \n"
+"          other error occurred, go back to home page."
+msgstr ""
+"الصفحة التي تبحث عنها غير موجودة أو حدث خطأ آخر ، ارجع إلى الصفحة الرئيسية."
+
+#: 404.php:10
+msgid "Back To Home"
+msgstr "العودة إلى المنزل"
+
+#: author.php:9
+msgid "Author:"
+msgstr "مؤلف:"
+
+#: author.php:73 single.php:181 template-parts/post-formats/post.php:74
+msgid "Read More "
+msgstr "اقرأ أكثر"
+
+#: comments.php:22
+msgid "Add your comment"
+msgstr "أضف تعليقك"
+
+#: footer.php:18
+msgid "Left"
+msgstr "اليسار"
+
+#: footer.php:32
+msgid "Center"
+msgstr "المركز"
+
+#: footer.php:47
+msgid "Right"
+msgstr "الصحيح"
+
+#: footer.php:61
+msgid "Gallery"
+msgstr "صالة عرض"
+
+#: header.php:28
+msgid "×"
+msgstr ""
+
+#: index.php:30
+msgid "No Posts Published Yet"
+msgstr "لا توجد مشاركات منشورة حتى الآن"
+
+#: index.php:32
+msgid "Are you looking for  blog posts ? Sorry site has no posts to display"
+msgstr "هل تبحث عن منشورات مدونة؟ عذرا الموقع ليس لديه وظائف لعرضها"
+
+#: page.php:31 page.php:46
+msgid " Comments "
+msgstr "تعليقات"
+
+#: search.php:9 search.php:30
+msgid "You searched for:  "
+msgstr "لقد بحثت عن:  "
+
+#: search.php:32
+msgid ""
+"Looks like your search are too specific!\n"
+"                             Try setting the filters to something more "
+"general."
+msgstr "يبدو أن بحثك محدد للغاية! حاول ضبط المرشحات على شيء أكثر عمومية."
+
+#: search.php:35
+msgid "Back to Home"
+msgstr "العودة إلى المنزل"
+
+#: searchform.php:6
+msgid "Search"
+msgstr "يبحث"
+
+#: single.php:88
+msgid "Tags"
+msgstr "العلامات"
+
+#: single.php:105
+msgid "Share post"
+msgstr "آخر حصة"
+
+#: single.php:141
+msgid "Related Posts "
+msgstr "المنشورات ذات الصلة"
+
+#: single.php:200
+msgid "Comments"
+msgstr "تعليقات"
+
+#: template-parts/post-formats/post-aside.php:59
+msgid "Read More"
+msgstr "اقرأ أكثر"
+
+#: template-parts/post-formats/post-quote.php:54
+msgid " - "
+msgstr ""

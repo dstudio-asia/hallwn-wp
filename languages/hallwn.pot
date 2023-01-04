@@ -1,0 +1,143 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2022-06-14 21:51+0600\n"
+"PO-Revision-Date: 2022-05-08 13:44+0600\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.0.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: esc_html;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: assets\n"
+"X-Poedit-SearchPathExcluded-1: markup\n"
+
+#: 404.php:4
+msgid "Page Not Found"
+msgstr ""
+
+#: archive.php:19 tag.php:19
+msgid "No posts available on"
+msgstr ""
+
+#: archive.php:19
+msgid "category"
+msgstr ""
+
+#: author.php:16 page.php:19
+msgid "Author:"
+msgstr ""
+
+#: author.php:72 template-parts/post-formats/post-aside.php:59
+msgid "Read More"
+msgstr ""
+
+#: comments.php:22
+msgid "Add your comment"
+msgstr ""
+
+#: footer.php:75
+msgid "Gallery"
+msgstr ""
+
+#: header.php:27
+msgid "×"
+msgstr ""
+
+#: inc/customizer/hallwn-customizer-main.php:46
+msgid " Body Font Styles"
+msgstr ""
+
+#: inc/customizer/hallwn-customizer-main.php:370
+msgid "Button Title"
+msgstr ""
+
+#: inc/customizer/hallwn-customizer-main.php:372
+msgid "Subscribe"
+msgstr ""
+
+#: inc/customizer/hallwn-customizer-main.php:379
+msgid "Button Url"
+msgstr ""
+
+#: inc/hallwn-after-theme-setup.php:15
+msgid "Hallwn Primary Menu"
+msgstr ""
+
+#: inc/hallwn-after-theme-setup.php:18
+msgid "Hallwn Footer Left Menu"
+msgstr ""
+
+#: inc/hallwn-after-theme-setup.php:21
+msgid "Hallwn Footer Middle Menu"
+msgstr ""
+
+#: inc/hallwn-after-theme-setup.php:24
+msgid "Hallwn Footer Right Menu"
+msgstr ""
+
+#: index.php:6
+msgid "All Posts"
+msgstr ""
+
+#: index.php:21
+msgid "No Posts Published Yet"
+msgstr ""
+
+#: page.php:31
+msgid "Comments "
+msgstr ""
+
+#: page.php:46 single.php:184
+msgid "Comments"
+msgstr ""
+
+#: search.php:6
+msgid "You searched for : "
+msgstr ""
+
+#: search.php:21
+msgid "No Posts Available"
+msgstr ""
+
+#: searchform.php:3
+msgid "Search"
+msgstr ""
+
+#: single.php:88
+msgid "Tags"
+msgstr ""
+
+#: single.php:125
+msgid "Related Posts "
+msgstr ""
+
+#: single.php:165 template-parts/post-formats/post.php:74
+msgid "Read More "
+msgstr ""
+
+#: tag.php:19
+msgid "Tag"
+msgstr ""
+
+#: template-parts/post-formats/post-aside.php:43
+#: template-parts/post-formats/post-status.php:41
+#: template-parts/post-formats/post.php:60
+msgid "By: "
+msgstr ""
+
+#: template-parts/post-formats/post-aside.php:46
+#: template-parts/post-formats/post-status.php:44
+#: template-parts/post-formats/post.php:63
+msgid "Date: "
+msgstr ""
+
+#: template-parts/post-formats/post-quote.php:54
+msgid " - "
+msgstr ""

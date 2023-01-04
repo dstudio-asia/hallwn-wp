@@ -1,0 +1,171 @@
+/*
+Theme Name: Hallwn
+Author: Debuggers Studio
+Author URI: https://wpsenpai.com
+Description: Hallwn is a clean and efficient blogging WordPress theme designed for bloggers who want to share their stories in an elegant and creative way. This modern, responsive, and SEO-friendly theme is perfect for anyone who wants to create an awesome blog website with a simple configuration. It's ideal for displaying advertisements in WordPress. Whether your niche is affiliate niche Blogs, lifestyle blogs, travel journals, architecture blogs, art blogs, personal portfolio, or something else, you can tweak this theme to fit your needs. This blog site layout is fully compatible with Elementor and Gutenburg and so you can engage readers all over the world.
+Version: 1.3.4
+Requires at least: 5.8
+Requires PHP: 5.6
+Tested up to: 5.8
+License: GNU General Public License v2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Tags: blog, custom-logo, entertainment, custom-colors, editor-style, featured-images, post-formats, theme-options, translation-ready, rtl-language-support
+Text Domain: hallwn
+*/
+
+.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.aligncenter,
+div.aligncenter {
+    display: block;
+    margin: 5px auto 5px auto;
+}
+
+.alignright {
+    float:right;
+    margin: 5px 0 20px 20px;
+}
+
+.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+a img.alignright {
+    float: right;
+    margin: 5px 0 20px 20px;
+}
+
+a img.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+a img.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+a img.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.wp-caption {
+    background: #fff;
+    border: 1px solid #f0f0f0;
+    max-width: 96%; 
+    padding: 5px 3px 10px;
+    text-align: center;
+}
+
+.wp-caption.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignleft {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignright {
+    margin: 5px 0 20px 20px;
+}
+
+.wp-caption img {
+    border: 0 none;
+    height: auto;
+    margin: 0;
+    max-width: 98.5%;
+    padding: 0;
+    width: auto;
+}
+
+.wp-caption p.wp-caption-text {
+    font-size: 11px;
+    line-height: 17px;
+    margin: 0;
+    padding: 0 4px 5px;
+}
+.screen-reader-text {
+  border: 0;
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  word-wrap: normal !important;
+}
+
+.screen-reader-text:focus {
+	background-color: #eee;
+	clip: auto !important;
+	clip-path: none;
+	color: #444;
+	display: block;
+	font-size: 1em;
+	height: auto;
+	left: 5px;
+	line-height: normal;
+	padding: 15px 23px 14px;
+	text-decoration: none;
+	top: 5px;
+	width: auto;
+	z-index: 100000;
+	/* Above WP toolbar. */
+}
+ .skip-link {
+  background-color: #f1f1f1;
+  box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.2);
+  color: #21759b;
+  display: block;
+  font-family: Montserrat, "Helvetica Neue", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  left: -9999em;
+  outline: none;
+  padding: 15px 23px 14px;
+  text-decoration: none;
+  text-transform: none;
+  top: -9999em;
+}
+
+ .skip-link:focus {
+  clip: auto;
+  height: auto;
+  left: 6px;
+  top: 7px;
+  width: auto;
+  z-index: 100000;
+  outline: thin dotted;
+}
+
+ .skip-link {
+  box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.2);
+  font-family: "Open Sans", sans-serif;
+}
+.sticky{
+    font-size: inherit;
+}
+.gallery-caption{
+    font-size: inherit;
+}
+.bypostauthor{
+    font-size: inherit;
+}
+.heading-two-typography.heading-404{
+    font-size:120px;
+}
+.entry-content {
+    word-wrap: break-word !important;
+}
+.entry-content p {
+    margin-bottom: 1.6em !important;
+}
+#site-title{
+    width:max-content;
+}
