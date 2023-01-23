@@ -83,7 +83,7 @@ table, td, th {
     transition: all 0.3s linear;
     direction: rtl;
     unicode-bidi: embed;
-    line-height:1.6;
+    line-height:1.7;
     height:100vh;
     }
     
@@ -143,14 +143,13 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "Inter", sans-serif;
+    font-family: "Inter", Sans-serif ;
     font-weight: bold;
     color: var(--dark);
     margin-top: 0;
     margin-bottom: 0;
     font-style: normal;
-    text-align: right;
-    line-height: 1.2em;
+    line-height: 1.3;
 }
 h1 a,
 h2 a,
@@ -159,20 +158,20 @@ h4 a,
 h5 a,
 h6 a {
     color: inherit;
-    line-height: 1.2em;
+    line-height: 1.3;
 }
 
 h2 {
-    font-size: 2.25rem;
+    font-size: 2.441rem;
 }
 h3 {
-    font-size: 1.5rem;
+    font-size: 1.953rem;;
 }
 h4 {
-    font-size: 1.25rem; 
+    font-size: 1.563rem;
 }
 h5 {
-    font-size: 1.125rem;
+    font-size: 1.25rem;;
 }
 h6 {
     font-size: 1rem;
@@ -202,6 +201,10 @@ div.post-contents ol li{
      margin-right:10px;
 }
 .container {
+    width: 85%;
+    margin: 0 auto;
+}
+.half-container{
     width: 85%;
     margin: 0 auto;
 }
@@ -1917,7 +1920,7 @@ textarea::-webkit-input-placeholder {
     text-align: center;
 }
 .home-demo .overlay-content h1 {
-    font-size: 32px;
+    font-size: 3.052rem;
     color: var(--white);
     line-height: 50px;
     width: 90%;
@@ -2512,7 +2515,7 @@ font-size: 16px;
 }
 .post-contents pre{
     background: #eee;
-    margin-bottom: 1.6em;
+    margin-bottom: 1rem;
     overflow: auto;
     max-width: 100%;
     padding: 1.6em;
@@ -2536,13 +2539,13 @@ p.comment-form-cookies-consent {
 }
 .post-contents p {
    font-size:1.1em;
-    margin-bottom: 1.6em !important;
+    margin-bottom: 1rem !important;
 }
 .post-contents hr{
-    margin-bottom:1.5em;
+    margin-bottom:1rem;
 }
 .post-contents h1{
-  font-size: 2.6666666666667rem;
+  font-size: 3.052rem;
   margin-bottom: 20px;
   line-height: 1.2;
 }

@@ -3,7 +3,7 @@ get_header();
 the_post(); 
 ?>
 <div class="home-demo bg-gray">
-        <div class="container home-blog  pt-60 pb-10">
+        <div class="<?php  if ( is_active_sidebar( 'hallwn-1' ) || is_active_sidebar('hallwn-2') ){ echo "container";}else{ echo "half-container"; } ?> home-blog  pt-60 pb-10">
             <div class="grid-cards <?php  if ( is_active_sidebar( 'hallwn-1' ) || is_active_sidebar('hallwn-2') ){ echo "has-sidebar";}else{ echo "no-sidebar"; } ?>">
                 <div class="post-cards lg-cards" >
                     <div class="large-card wide-img-post white-bg">
