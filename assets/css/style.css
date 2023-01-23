@@ -2537,7 +2537,7 @@ span.span-style.footer-nav-title{
 h1.post-title.single-title.pb-25 {
 -ms-word-wrap: break-word;
 word-wrap: break-word;
-line-height:1;
+line-height:1.2em;
 }
 div.menu ul li a{
 color: #676767;
@@ -2573,7 +2573,7 @@ p.comment-form-cookies-consent {
     word-wrap: break-word !important;
 }
 .post-contents p {
-    font-size:1em;
+    font-size:1.1em;
     margin-bottom: 1.6em !important;
 }
 .post-contents hr{
