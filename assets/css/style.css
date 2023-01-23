@@ -157,6 +157,10 @@ h6 a {
     line-height: 1.3;
 }
 
+h1{
+    font-size: 3.052rem;
+}
+
 h2 {
     font-size: 2.441rem;
 }
@@ -193,7 +197,7 @@ div.post-contents ol li{
     margin: 0 auto;
 }
 .half-container{
-    width: 85%;
+    width: 50%;
     margin: 0 auto;
 }
 img {
@@ -489,37 +493,6 @@ iframe {
 .post-author.single-post{
   margin-top:0;  
 }
-/* owl casousel start  */
-
-.owl-carousel .owl-dots {
-    display: none;
-}
-.owl-theme .owl-dots .owl-dot {
-    display: none;
-}
-.owl-theme .owl-nav.disabled {
-    display: block !important;
-}
-.owl-theme .owl-nav button {
-    position: absolute;
-    border-radius: 25px !important;
-    height: 50px;
-    width: 50px;
-    background: var(--danger-2) !important;
-}
-.owl-theme .owl-nav button span {
-    color: var(--white);
-    font-size: 2rem;
-    line-height: 65%;
-}
-.owl-theme .owl-nav .owl-prev {
-    left: -5.5% !important;
-    top: 40%;
-}
-.owl-theme .owl-nav .owl-next {
-    right: -5.5% !important;
-    top: 40%;
-}
 
 /* nav-bar start  */
 header .container {
@@ -814,7 +787,7 @@ nav.hero-nav.nav-alignment{
 
 .home .overlay-content h4 {
     color: var(--white);
-    line-height: 30px;
+    line-height: 1.3;
 }
 .home .overlay-content a:hover {
     color: var(--white);
@@ -1136,9 +1109,7 @@ a.icon-bg.sidebar-icon i{
     text-decoration:none !important;
     color:var(--danger) !important;
 }
-.popup-gallery{
-    line-height:1.5 !important;
-}
+
 /* popup gallery end */
 
 /* recent post start */
@@ -1154,11 +1125,11 @@ a.icon-bg.sidebar-icon i{
 
 .recent-post .post-column h4 {
     margin: 5px auto;
-    line-height:30px;
+    line-height:1.3;
 }
 #side-bar .recent-post .post-column a, #side-bar .recent-post a.comment-btn{
     text-decoration:none !important;
-    line-height:28px;
+    line-height:1.75;
 }
 .recent-post .post-column:last-child {
     margin-bottom: 25px;
@@ -1169,7 +1140,7 @@ a.icon-bg.sidebar-icon i{
 }
 
 .recent-post a.comment-btn.pl-20.pr-20{
-    line-height:1.5 !important;
+    line-height:1.75 !important;
 }
 
 
@@ -1344,7 +1315,7 @@ a.icon-bg.sidebar-icon i{
 
 .hl-post .overlay-content h4 {
     color: var(--white);
-    line-height: 30px;
+    line-height: 1.3;
 }
 .hl-post .overlay-content a:hover {
     color: var(--white);
@@ -1376,7 +1347,7 @@ a.icon-bg.sidebar-icon i{
     background-color: unset;
 }
 .popular-post .post-column h5 {
-    line-height: 30px;
+    line-height: 1.3;
     font-size: 16px;
 }
 .popular-post .post-column img {
@@ -1564,7 +1535,7 @@ a.icon-bg.sidebar-icon i{
     place-items: center;
     padding: .5em 1em;
     border-radius: 50px;
-    line-height:1.5;
+    line-height:1.75;
     text-decoration:none !important;
 }
 .tags .post-heading{
@@ -1660,7 +1631,7 @@ textarea::-webkit-input-placeholder {
 .footer-content {
     display: flex;
     justify-content: space-between;
-    line-height: 40px;
+    line-height: 1.75;
     gap: 1%;
     row-gap: 2rem;
     flex-wrap: wrap;
@@ -1951,7 +1922,7 @@ textarea::-webkit-input-placeholder {
 .home-demo .overlay-content h1 {
     font-size: 3.052rem;
     color: var(--white);
-    line-height: 68px;
+    line-height: 1.3;
     width: 90%;
 }
 .home-demo .full-width-slider a:hover {
@@ -2063,7 +2034,7 @@ textarea::-webkit-input-placeholder {
     padding: 20px 50px 75px 50px;
 }
 .home-blog .large-card .post-title {
-    font-size: 2.25rem;
+    font-size: 3.052rem;
     font-weight: unset;
 }
 
@@ -2458,8 +2429,6 @@ h4.profile-title{
 h2.post-title{
     -ms-word-wrap: break-word !important;
      word-wrap: break-word !important;
-     font-size:20px;
-     padding-top:20px;
 }
 .footer-bottom p.paragraph-style{
     font-size:16px;
@@ -2486,7 +2455,7 @@ h2.post-title{
 .heading-six-404{
     font-size:56px;
     font-weight:300;
-    line-height:normal;
+    line-height:1.3;
 }
 .paragraph-404{
     font-size:18px;
@@ -2540,7 +2509,7 @@ span.span-style.footer-nav-title{
 h1.post-title.single-title.pb-25 {
 -ms-word-wrap: break-word;
 word-wrap: break-word;
-line-height:1.2em;
+line-height:1.3;
 }
 div.menu ul li a{
 color: #676767;
@@ -2583,34 +2552,29 @@ p.comment-form-cookies-consent {
     margin-bottom:1.5em;
 }
 .post-contents h1{
-  font-size: 3.052rem;
   margin-bottom: 20px;
-  line-height: 1.2;
+  line-height: 1.3;
 }
 .post-contents h2{
-  font-size: 2rem;
   margin-bottom: 20px;
   line-height: 1.3;
 }
 .post-contents h3{
-  font-size: 1.6666666666667rem;
   margin-bottom: 20px;
-  line-height: 1.4;
+  line-height: 1.3;
 }
 .post-contents h4{
-  font-size: 1.3333333333333rem;
   margin-bottom: 20px;
-  line-height: 1.5;
+  line-height: 1.3;
 }
 .post-contents h5{
-  font-size: 1.2rem;
   margin-bottom: 20px;
-  line-height: 1.6;
+  line-height: 1.3;
 }
 .post-contents h6{
   font-size: 1rem;
   margin-bottom: 20px;
-  line-height: 1.7;
+  line-height: 1.3;
 }
 .post-contents dt {
     font-weight: 700;
@@ -2621,11 +2585,11 @@ p.comment-form-cookies-consent {
 }
 .post-contents ol{
     margin: 0 0 1.5em 3em;
-    line-height:28px !important;
+    line-height:1.75 !important;
 }
 .post-contents ul {
     margin: 0 0 1.5em 3em !important;
-    line-height:28px !important;
+    line-height:1.75 !important;
 }
 .post-contents fieldset legend {
     margin-bottom: 1.5em;
@@ -2688,7 +2652,7 @@ tr td {
     padding-left: 30px;
     font-family: inherit;
     font-weight: inherit;
-    line-height: 1;
+    line-height: 1.75;
     border-radius:50px;
 }
 

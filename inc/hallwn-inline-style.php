@@ -89,7 +89,6 @@ if (!function_exists("hallwn_my_styles_method"))
                 .profile-title{
                   color:{$heading_color};
                   text-align:{$align_center} !important;
-                  font-size:{$heading_four_fsize}px;
                   padding-top:20px;
                 }
                 .tabcontent.subscription-offer{
@@ -161,7 +160,6 @@ if (!function_exists("hallwn_my_styles_method"))
                 }
                 h2.heading-two-typography{
                 color:{$heading_color} ;
-                font-size:{$heading_two_fsize}px;
                 }
                 .section-title.search-page{
                     display:unset;
@@ -194,7 +192,6 @@ if (!function_exists("hallwn_my_styles_method"))
                 .page-page h4.post-title.heading-four a{
                     text-align: center !important; 
                     color: {$heading_color} !important;
-                    font-size: {$heading_two_fsize}px !important;
                     padding:30px 0 !important;
                 }
                 
@@ -266,7 +263,6 @@ if (!function_exists("hallwn_my_styles_method"))
                 }
                 .card-inner .post-title a{
                     color: {$heading_color};
-                    font-size: {$heading_four_fsize}px;
                 }
                 .quote-author-2 .paragraph-style{
                     text-align:center !important;
@@ -311,7 +307,6 @@ if (!function_exists("hallwn_my_styles_method"))
                  }
                  .post-heading.content-heading span{
                      font-family: 'Inter', Sans-serif !important;
-                     font-size: 24px;
                  }
                  .search-text{
                      font-size:20px;
@@ -353,15 +348,12 @@ if (!function_exists("hallwn_my_styles_method"))
                  font-size: 16px;
                 }
                 h1.post-title.single-title.pb-25{
-                    font-size: {$heading_one_fsize}px;
                     color:{$heading_color};
                 }
                 h3.post-heading.mb-30 span, h3.h3-typography.text-right{
-                    font-size: {$heading_three_fsize}px;
                     color:{$heading_color} !important;
                 }
                 h5{
-                    font-size:{$heading_four_fsize}px;
                     color:{$heading_color};
                 }
                 .post-contents, .post-excerpt.mb-25.paragraph-style, .profile-about.mt-15.mb-20, .logged-in-as, .blogger-details p, .paragraph-404, .paragraph-search{

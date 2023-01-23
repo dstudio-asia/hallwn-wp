@@ -1,4 +1,4 @@
-                           <div class="card standard-img-post" <?php post_class("hallwn-post"); ?>>
+<div class="card standard-img-post" <?php post_class("hallwn-post"); ?>>
 								<div class="post-img">
                                     <a href="<?php the_permalink(); ?>" class="card-img-top"  aria-label="<?php the_title(); ?>">
 										<?php the_post_thumbnail('feature-thumb'); ?>
@@ -46,7 +46,7 @@
                                     <?php endif; ?>
 								</div>
 								<div class="card-inner">
-									<h2 class="post-title"  >
+									<h2 class="post-title pt-20">
 									  <a  href="<?php the_permalink(); ?>" ><?php the_title(); ?></a>
 									</h2>
 									<div class="post-author">
