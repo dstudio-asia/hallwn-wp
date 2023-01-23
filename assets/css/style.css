@@ -154,6 +154,7 @@ h4 a,
 h5 a,
 h6 a {
     color: inherit;
+    line-height: 1.2em;
 }
 
 h2 {
