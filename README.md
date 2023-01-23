@@ -2,6 +2,12 @@
 
 All notable changes of Hallwn Wp Theme will be documented in this file.
 
+## [1.3.5] - 2023-01-22
+
+### Changed
+
+-  Single Page Content Part Background Gray To White
+
 ## [1.3.4] - 2023-01-03
 
 ### Fixed

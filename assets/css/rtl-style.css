@@ -76,7 +76,7 @@ table, td, th {
 }
 
     body {
-    font-family: "Mulish", sans-serif;
+    font-family: "Inter", Sans-serif ;
     font-weight: normal;
     font-style: normal;
     color: var(--secondary);
@@ -131,7 +131,7 @@ button {
     -ms-transition: all 0.3s ease-out 0s;
     -o-transition: all 0.3s ease-out 0s;
     transition: all 0.3s ease-out 0s;
-    font-family: "Mulish", sans-serif;
+    font-family: "Inter", Sans-serif ;
     font-weight: normal;
     font-style: normal;
     border: none;
@@ -241,7 +241,7 @@ img {
 input,
 textarea {
     border: none;
-    font-family: "Mulish", sans-serif;
+    font-family: "Inter", Sans-serif ;
     background:var(--light);
 }
 .subscribe-now.card input[type="email"]{
@@ -2313,7 +2313,7 @@ textarea.form-control {
 }
 
 .search-overlay input::-webkit-input-placeholder {
-    font-family: "Mulish", sans-serif;
+    font-family: "Inter", Sans-serif;
     background-color: var(--white);
     font-size: 16px;
     letter-spacing: 5px;
