@@ -4,7 +4,7 @@ Contributors: debuggersstudio
 Tags: blog, custom-logo, entertainment, custom-colors, editor-style, featured-images, post-formats, theme-options, translation-ready, rtl-language-support
 Requires at least: 5.8
 Tested up to: 5.8
-Stable tag: 1.3.4
+Stable tag: 1.3.5
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -19,6 +19,12 @@ Hallwn is a clean and efficient blogging WordPress theme designed for bloggers w
 3. Click Activate to use your new theme right away.
 
 == Changelog ==
+
+== 1.3.5
+
+* Font Family Changed Mulish To Inter
+* Paragraph and Heading Tags Font Size , Line Height Updated
+* Exclude Search Page Option
 
 == 1.3.4
 

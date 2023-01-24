@@ -2,12 +2,13 @@
 
 All notable changes of Hallwn Wp Theme will be documented in this file.
 
-## [1.3.5] - 2023-01-23
+## [1.3.5] - 2023-01-24
 
 ### Fixed
 
 - Font Family Changed Mulish To Inter
 - Paragraph and Heading Tags Font Size , Line Height Updated
+- Exclude Search Page Option
 
 ### Changed
 

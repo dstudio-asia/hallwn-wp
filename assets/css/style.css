@@ -120,6 +120,7 @@ div.post-contents a:hover, .grid-cards.has-sidebar a:hover, .content-box4.footer
 }
 p.logged-in-as{
     padding-bottom:15px;
+    font-size:1.1em;
 }
 
 button {
@@ -324,6 +325,7 @@ iframe {
     height: 100%;
     display: flex;
     flex-direction: column;
+    justify-content:space-between;
 }
 /* card */
 .card-inner {
@@ -2431,7 +2433,7 @@ h2.post-title{
      word-wrap: break-word !important;
 }
 .footer-bottom p.paragraph-style{
-    font-size:16px;
+    font-size:1.1em;
 }
 .comment-validation-message{
     color:var(--danger);
@@ -2449,11 +2451,7 @@ h2.post-title{
     padding-top:80px;
     padding-bottom:120px;
  }
-.heading-two-typography.heading-404{
-    font-size:120px;
-}
 .heading-six-404{
-    font-size:56px;
     font-weight:300;
     line-height:1.3;
 }
@@ -2461,7 +2459,7 @@ h2.post-title{
     font-size:18px;
     color:#212121;
     padding-top:15px;
-    padding-bottom:40px;
+    padding-bottom:15px;
     width:25%;
     margin:0 auto;
 }
@@ -2543,10 +2541,14 @@ p.comment-form-cookies-consent {
 
 .post-contents {
     word-wrap: break-word !important;
+    font-size:1.1em;
 }
 .post-contents p {
     font-size:1.1em;
     margin-bottom: 1rem !important;
+}
+.post-contents p input, .post-contents p textarea, .post-contents p select{
+   font-size:1.1em; 
 }
 .post-contents hr{
     margin-bottom:1.5em;

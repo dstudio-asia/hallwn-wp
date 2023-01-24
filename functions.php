@@ -49,6 +49,12 @@ require get_template_directory() . '/inc/hallwn-register-widgets.php';
 require get_template_directory() . '/inc/hallwn-enqueue.php';
 
 /**
+ * Hallwn Exclude Search
+ */
+
+require get_template_directory() . '/inc/hallwn-exclude-search.php';
+
+/**
  * Hallwn Additional Style
  */
 

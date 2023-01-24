@@ -3,7 +3,7 @@
 :root {
     --white: #ffffff;
     --light: #f8f8f8;
-    --info: #fcf7ff;
+    --info: #fcf7ff;#
     --dark: #292929;
     --secondary: #676767;
     --warning: #f5efe0;
@@ -123,6 +123,7 @@ div.post-contents a:hover, .grid-cards.has-sidebar a:hover, .content-box5.footer
 
 p.logged-in-as{
     padding-bottom:15px;
+    font-size:1.1em;
 }
 
 button {
@@ -331,6 +332,7 @@ iframe {
     height: 100%;
     display: flex;
     flex-direction: column;
+    justify-content:space-between;
 }
 /* card  */
 .card-inner {
@@ -2415,11 +2417,9 @@ span.span-style.carousel-meta, span.span-style.carousel-meta a{
     padding-bottom:120px;
  }
 .heading-two-typography.heading-404{
-    font-size:120px !important;
     text-align:center;
 }
 .heading-six-404{
-    font-size:56px;
     font-weight:300;
     text-align:center;
 }
@@ -2427,7 +2427,7 @@ span.span-style.carousel-meta, span.span-style.carousel-meta a{
     font-size:18px;
     color:#212121;
     padding-top:15px;
-    padding-bottom:40px;
+    padding-bottom:15px;
     width:25%;
     margin:0 auto;
     text-align:center !important;
@@ -2503,10 +2503,14 @@ p.comment-form-cookies-consent {
 
 .post-contents {
     word-wrap: break-word !important;
+    font-size:1.1em;
 }
 .post-contents p {
    font-size:1.1em;
     margin-bottom: 1rem !important;
+}
+.post-contents p input, .post-contents p textarea, .post-contents p select{
+   font-size:1.1em; 
 }
 .post-contents hr{
     margin-bottom:1rem;
