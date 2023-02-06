@@ -152,6 +152,7 @@ h3.mb-30.share-padding{
     width:33% !important;;
     margin:0 auto; 
   }
+  
 }
 @media screen and (max-width: 1300px) {
   button.owl-prev{
@@ -170,6 +171,10 @@ h3.mb-30.share-padding{
   }
 }
 @media screen and (max-width: 1200px) {
+
+  .half-container{
+    width: 70%;
+  }
 
   .home .ft-posts .left-area,
   .suggested-post .left-area {
@@ -273,6 +278,9 @@ h3.mb-30.share-padding{
  }
 }
 @media screen and (max-width: 1025px) {
+  .half-container{
+    width: 90%;
+  }
     .footer-content{
       flex-direction:unset;
       padding:0 64px;
@@ -280,12 +288,18 @@ h3.mb-30.share-padding{
 }
 
 @media screen and (max-width: 1150px){
+  .half-container{
+    width: 90%;
+  }
    nav.hero-nav ul{
        gap:5%;
    }
 }
 
 @media screen and (max-width: 992px) {
+  .half-container{
+    width: 90%;
+  }
   .gallery-cards {
     display: grid;
     grid-template-columns: 1fr;
@@ -502,6 +516,9 @@ span.danger-text {
 }
 
 @media screen and (max-width: 800px) {
+.half-container{
+  width: 90%;
+}
 span.danger-text {
     font-size: 14px !important;
 }
@@ -522,10 +539,13 @@ span.danger-text {
 }
 
 @media screen and (max-width: 768px) {
+  .half-container{
+    width: 90%;
+  }
   .gallery-cards {
     display: grid;
     grid-template-columns: 1fr 1fr;
-}
+  }
 .gallery-cards{
       grid-template-columns: 50% 50%;
        column-gap:10px !important;
@@ -624,6 +644,10 @@ display: unset;
 
 }
 @media screen and (max-width: 539px) {
+  
+  .half-container{
+    width: 90%;
+  }
   .container {
     width: 90%;
   }

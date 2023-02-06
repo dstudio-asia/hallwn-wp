@@ -9,6 +9,7 @@ All notable changes of Hallwn Wp Theme will be documented in this file.
 - Font Family Changed Mulish To Inter
 - Paragraph and Heading Tags Font Size , Line Height Updated
 - Exclude Search Page Option
+- Single page paragraph justify
 
 ### Changed
 
