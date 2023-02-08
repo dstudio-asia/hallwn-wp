@@ -2,7 +2,7 @@
 
 All notable changes of Hallwn Wp Theme will be documented in this file.
 
-## [1.3.5] - 2023-01-24
+## [1.3.5] - 2023-02-08
 
 ### Fixed
 
