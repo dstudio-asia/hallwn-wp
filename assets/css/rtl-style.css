@@ -3,7 +3,7 @@
 :root {
     --white: #ffffff;
     --light: #f8f8f8;
-    --info: #fcf7ff;#
+    --info: #fcf7ff;
     --dark: #292929;
     --secondary: #676767;
     --warning: #f5efe0;
@@ -2104,7 +2104,9 @@ textarea::-webkit-input-placeholder {
 .blog-single-img img {
     max-width: 100%;
 }
-
+.d-none {
+    display: none;
+}
 /* tab start*/
 .tab,
 .tab2,

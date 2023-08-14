@@ -25,6 +25,7 @@ $hallwn_comment_fields = array();
 $hallwn_comment_field = '
 <div class="row">
 <div>
+<label class="d-none" for="comment">'.esc_html__('Comment*', 'hallwn').'</label>
 <textarea class="form-control" id="comment" name="comment" placeholder="'.esc_html__('Comment*', 'hallwn').'"></textarea>
 <p class="comment-validation-message"></p>
 </div>
@@ -32,12 +33,14 @@ $hallwn_comment_field = '
 $hallwn_comment_fields['author'] = '
 <div class="comment-grid mt-30">
 <div>
+<label class="d-none" for="author">'.esc_html__('Name*', 'hallwn').'</label>
 <input type="text" id="author" name="author" placeholder="'.esc_html__('Name*', 'hallwn').'">
 <p class="comment-validation-author"></p>
 </div>
 ';
 $hallwn_comment_fields['email'] = '
 <div>
+<label class="d-none" for="email">'.esc_html__('Email*', 'hallwn').'</label>
 <input type="email" id="email" name="email" placeholder="'.esc_html__('Email*', 'hallwn').'">
 <p class="comment-validation-email"></p>
 </div>

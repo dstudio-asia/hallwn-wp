@@ -168,9 +168,15 @@ the_post();
                                         ?>
                                             <div class="gallery-card" >
                                                 <div class="card-container">
+                                                    <?php
+                                                    if(has_post_thumbnail()):
+                                                    ?>
                                                     <div class="gallery-card-img">
                                                        <a href="<?php the_permalink(); ?>"> <?php the_post_thumbnail(); ?> </a>
                                                     </div>
+                                                    <?php
+                                                    endif;
+                                                    ?>
                                                     <div class="gallery-content" id="gallery-content">
                                                      <?php if(has_category('',$post->ID)){ ?>
 									                 <button class="primary-btn mb-15">

@@ -26,13 +26,12 @@ get_header();
                         ?>
                         <div class="card standard-img-post" <?php post_class("hallwn-post"); ?>>
 								<div class="post-img">
-						
+									<?php
+								    if(has_post_thumbnail()):
+								    ?>
                                     <a href="<?php the_permalink(); ?>" class="card-img-top">
 										<?php the_post_thumbnail('feature-thumb'); ?>
 									</a>
-								    <?php
-								    if(has_post_thumbnail()):
-								    ?>
 		                            <button class="primary-btn post-category">
 									    <?php
 									     $hallwn_categories = get_the_category();

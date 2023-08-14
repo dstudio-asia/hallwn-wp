@@ -2128,7 +2128,9 @@ textarea::-webkit-input-placeholder {
 .blog-single-img img {
     max-width: 100%;
 }
-
+.d-none {
+    display: none;
+}
 /* tab start*/
 .tab,
 .tab2,
