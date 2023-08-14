@@ -25,6 +25,7 @@ Hallwn is a clean and efficient blogging WordPress theme designed for bloggers w
 * Font Family Changed Mulish To Inter
 * Paragraph and Heading Tags Font Size , Line Height Updated
 * Exclude Search Page Option
+* Increase Font Size In Mobile Version
 
 == 1.3.4
 

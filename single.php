@@ -7,9 +7,9 @@ the_post();
             <div class="grid-cards <?php  if ( is_active_sidebar( 'hallwn-1' ) || is_active_sidebar('hallwn-2') ){ echo "has-sidebar";}else{ echo "no-sidebar"; } ?>">
                 <div class="post-cards lg-cards" >
                     <div class="large-card wide-img-post white-bg">
+                        <?php if(has_post_thumbnail()): ?>
                         <div class="post-img">
                             <a  href="<?php the_permalink(); ?>"><?php the_post_thumbnail('full', array(  'class' => 'card-img-top')); ?></a>
-                            <?php if(has_post_thumbnail()): ?>
                             <?php if(has_category('',$post->ID)){ ?>
 						     <button class="primary-btn post-category" id="category">
 						     <?php
@@ -26,8 +26,8 @@ the_post();
 						     </button>
 						     <?php } ?>
 						     </a>
-                            <?php endif; ?>
                         </div>
+                        <?php endif; ?>
                         <div class="card-inner single-page" id="single-page">
                             <h1 class="post-title single-title pb-25 <?php if(!has_post_thumbnail()){echo "pt-25" ;} ?>">
                                <?php the_title(); ?>
@@ -94,7 +94,7 @@ the_post();
                             <?php
                             if(has_tag()):
                             ?>
-                            <div class="share-blog-post social-share d-flex mt-30 mb-30">
+                            <div class="share-blog-post social-share mt-30 mb-30">
                                 <?php if(has_tag()){ ?>
                                 <div class="tags">
                                     <h3 class="post-heading mb-30"><?php esc_html_e('Tags','hallwn')  ?></h3>

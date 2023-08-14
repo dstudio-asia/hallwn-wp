@@ -53,9 +53,9 @@
 										 <span class="span-style"><?php echo get_the_date('F j, Y'); ?></span>
 										</div>
 									</div>
-									<div class="post-excerpt mb-25 post-contents">
+									<p class="post-excerpt mb-25 post-contents">
 									 <?php if(get_theme_mod('post_excerpt_length')){ echo wp_trim_words(get_the_excerpt(), get_theme_mod('post_excerpt_length')); }else{ echo wp_trim_words(get_the_excerpt(), 10); } ?>
-									</div>
+									</p>
 									<div class="post-footer">
 										<button class="comment-btn pl-20 pr-20">
 											<i class="fas fa-comment-dots danger-text"></i>

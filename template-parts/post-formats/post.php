@@ -1,4 +1,4 @@
-<div class="card standard-img-post" <?php post_class("hallwn-post"); ?>>
+                           <div class="card standard-img-post" <?php post_class("hallwn-post"); ?>>
 								<div class="post-img">
                                     <a href="<?php the_permalink(); ?>" class="card-img-top"  aria-label="<?php the_title(); ?>">
 										<?php the_post_thumbnail('feature-thumb'); ?>
@@ -57,11 +57,11 @@
 										 </span><span class="span-style"> <?php echo get_the_date('F j, Y'); ?> </span>
 										</div>
 									</div>
-									<div class="post-contents">
+									<p class="post-contents">
 										<?php if(get_theme_mod('post_excerpt_length')){ echo wp_trim_words(get_the_excerpt(), get_theme_mod('post_excerpt_length')); }else{ echo wp_trim_words(get_the_excerpt(), 10); } ?>
-									</div>
+									</p>
 									<div class="post-footer">
-										<button class="comment-btn pl-20 pr-20">
+										<button class="comment-btn">
 											<i class="fas fa-comment-dots danger-text"></i>
 											<span class="span-style"><?php echo esc_html(get_comments_number()) ?></span>
 										</button>

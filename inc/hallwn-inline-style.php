@@ -49,13 +49,7 @@ if (!function_exists("hallwn_my_styles_method"))
                 p{
                  color: {$hallwn_paragraph_color};
                 }
-                
-                .primary-btn.subscribe-btn{
-                 background: {$secondary_btn_background} !important;
-                 border-radius: {$btn_border_radius}px !important;
-                 border: 2px solid {$btn_secondary_border_color} !important;
-                 color: {$secondary_btn_text_color};
-                }
+        
                 .primary-btn.subscribe-btn:hover{
                  background: {$secondary_btn_background_hover} !important;
                  color: {$btn_hover_text_color};
@@ -152,14 +146,8 @@ if (!function_exists("hallwn_my_styles_method"))
                 .comment-btn i{
                  color:{$theme_color} !important;
                 }
-                .post-footer{
-                    margin-top:20px;
-                }
                 .blog-comment .heading h3{
                  color: {$heading_color} !important;
-                }
-                h2.heading-two-typography{
-                color:{$heading_color} ;
                 }
                 .section-title.search-page{
                     display:unset;
@@ -261,9 +249,6 @@ if (!function_exists("hallwn_my_styles_method"))
                     padding-bottom:15px !important;
                     color: {$theme_color} !important;
                 }
-                .card-inner .post-title a{
-                    color: {$heading_color};
-                }
                 .quote-author-2 .paragraph-style{
                     text-align:center !important;
                 }
@@ -311,9 +296,6 @@ if (!function_exists("hallwn_my_styles_method"))
                  .search-text{
                      font-size:20px;
                  }
-                 .author-post-title{
-                    font-size: 20px;
-                }
                 .light-purple-bg{
                 background: #fcf7ff;
                 }
@@ -327,16 +309,9 @@ if (!function_exists("hallwn_my_styles_method"))
                 .content-heading.post-heading.footer span::after{
                     background:#ffffff !important;
                 }
-                li.page_item.page-item-2 a{
-                    color:#404040;
-                    font-size:16px;
-                }
                 ul.menu li a{
                     color:#404040;
                     font-size:16px;
-                }
-                .content-list ul li a {
-                 color: #292929 !important;
                 }
                 .content-box4.footer-gallery.footer.pt-10 ul li a{
                     line-height:2.5;
@@ -344,23 +319,12 @@ if (!function_exists("hallwn_my_styles_method"))
                 .content-box4.footer-gallery.footer.pt-10{
                     padding-top:0;
                 }
-                .popup-gallery h2, .popup-gallery {
-                 font-size: 16px;
-                }
-                h1.post-title.single-title.pb-25{
-                    color:{$heading_color};
-                }
+                
                 h3.post-heading.mb-30 span, h3.h3-typography.text-right{
                     color:{$heading_color} !important;
                 }
-                h5{
-                    color:{$heading_color};
-                }
-                .post-contents, .post-excerpt.mb-25.paragraph-style, .profile-about.mt-15.mb-20, .logged-in-as, .blogger-details p, .paragraph-404, .paragraph-search{
+                .post-excerpt.mb-25.paragraph-style, .profile-about.mt-15.mb-20, .logged-in-as, .blogger-details p{
                    color:{$hallwn_paragraph_color};
-                }
-                .posts.container span, .home-demo.bg-gray span{
-                    color:{$hallwn_span_color};
                 }
                 .post-footer a, .author a, .logged-in-as a, .top-categories a , a.comment-btn span, .profile-card a.comment-btn.pl-20.pr-20 span{
                     color:{$hallwn_a_color};
@@ -369,7 +333,7 @@ if (!function_exists("hallwn_my_styles_method"))
                  .top-categories a, #side-bar, .tags .tags-btn a, .tags .tags-btn a:hover{
                    color:{$hallwn_a_color} !important; 
                 }
-                .recent-post .post-column a, #side-bar .popular-post.card.mb-30 a, .heading-two-typography.heading-404, .heading-six-404, .heading-six-search-page, .post-title.heading-four{
+                .recent-post .post-column a, #side-bar .popular-post.card.mb-30 a, .heading-six-search-page, .post-title.heading-four{
                     color:{$heading_color} !important;
                 }
                   #commentform p.logged-in-as a, #author a, #category a{

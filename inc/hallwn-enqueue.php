@@ -5,6 +5,7 @@ if (!function_exists("hallwn_assets"))
     {
         $hallwn_theme_version = wp_get_theme()->get( 'Version' );
         wp_enqueue_style("fontawesome-css", get_theme_file_uri("/assets/css/fontawesome.css") , null);
+        wp_enqueue_style("mulish-theme-font", "//fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Mulish:wght@400;500;600;700&display=swap", false);
         wp_enqueue_style("inter-theme-font", "//fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap", false);
         if (is_rtl())
         {

@@ -62,13 +62,11 @@ get_header();
 										<span class="span-style"><?php echo get_the_date('F j, Y'); ?></span>
 										</div>
 									</div>
-									<div class="post-contents">
-									<p class="post-excerpt mb-25 paragraph-style">
+									<p class="post-contents">
 									  <?php if(get_theme_mod('hallwn_author_post_excerpt_length')){ echo wp_trim_words(get_the_excerpt(), get_theme_mod('hallwn_author_post_excerpt_length')); }else{ echo wp_trim_words(get_the_excerpt(), 10); } ?>
 									</p>
-									</div>
 									<div class="post-footer">
-										<button class="comment-btn pl-20 pr-20">
+										<button class="comment-btn">
 											<i class="fas fa-comment-dots danger-text"></i>
 											<span class="span-style"><?php echo esc_html(get_comments_number()) ?></span>
 										</button>
@@ -86,6 +84,5 @@ get_header();
 				</div>
 			</div>
 			<p class="paragraph-style post-pagination" ><?php posts_nav_link('   ', esc_html__('Previous Posts','hallwn'), esc_html__('Next Posts','hallwn')) ?> </p> 
-		</section>
-                                        
+		</section>                                      
 <?php get_footer(); ?>
